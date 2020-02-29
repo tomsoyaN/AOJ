@@ -16,5 +16,10 @@ namespace ProjectAOJ
         {
             InitializeComponent();
         }
+
+        public ShowHelloWorld()
+        {
+            
+        }
     }
 }
