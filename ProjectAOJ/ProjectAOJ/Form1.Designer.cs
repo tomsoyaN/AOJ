@@ -38,39 +38,43 @@
             this.txtBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBox.Location = new System.Drawing.Point(51, 45);
+            this.txtBox.Location = new System.Drawing.Point(66, 60);
+            this.txtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBox.Multiline = true;
             this.txtBox.Name = "txtBox";
-            this.txtBox.Size = new System.Drawing.Size(577, 439);
+            this.txtBox.Size = new System.Drawing.Size(749, 584);
             this.txtBox.TabIndex = 0;
             // 
             // btnComp
             // 
-            this.btnComp.Location = new System.Drawing.Point(516, 526);
+            this.btnComp.Location = new System.Drawing.Point(671, 701);
+            this.btnComp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnComp.Name = "btnComp";
-            this.btnComp.Size = new System.Drawing.Size(144, 38);
+            this.btnComp.Size = new System.Drawing.Size(187, 51);
             this.btnComp.TabIndex = 1;
-            this.btnComp.Text = "コンパイラ用";
+            this.btnComp.Text = "コンパイラ実行";
             this.btnComp.UseVisualStyleBackColor = true;
             this.btnComp.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnNet
             // 
-            this.btnNet.Location = new System.Drawing.Point(51, 530);
+            this.btnNet.Location = new System.Drawing.Point(66, 707);
+            this.btnNet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNet.Name = "btnNet";
-            this.btnNet.Size = new System.Drawing.Size(164, 34);
+            this.btnNet.Size = new System.Drawing.Size(213, 45);
             this.btnNet.TabIndex = 2;
             this.btnNet.Text = "ネットワーク用";
             this.btnNet.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 576);
+            this.ClientSize = new System.Drawing.Size(902, 768);
             this.Controls.Add(this.btnNet);
             this.Controls.Add(this.btnComp);
             this.Controls.Add(this.txtBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
